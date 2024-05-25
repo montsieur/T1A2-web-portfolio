@@ -1,0 +1,111 @@
+/* index style sheet */
+
+/* main colour palette */
+:root {
+    --primary-color: #2D232E;
+    --secondary-color: #474448;
+    --third-color: #534B52;
+    --background-color: #F1F0EA;
+}
+
+/* font used from FontShare */
+@font-face {
+    font-family: Satoshi; 
+    src: url(./resources/fonts/Satoshi-Regular.ttf);
+}
+
+@font-face {
+    font-family: Satoshi-Medium;
+    src: url(./resources/fonts/Satoshi-Medium.ttf);
+}
+
+@font-face {
+    font-family: CabinetGrotesk-Bold;
+    src: url(./resources/fonts/CabinetGrotesk-Bold.ttf);
+}
+
+/* applies space between the header, main & footer */
+body {
+    font-family: Satoshi;
+    background-color: var(--background-color);
+    margin: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh;
+    justify-content: space-between;
+}
+
+/* HEADER */
+
+/* applying space between content for logo & navigation bar */
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: baseline;
+}
+
+/* applying fixed color and fonts to each header */
+h1, h2, h3 {
+    font-family: CabinetGrotesk-Bold;
+    color: var(--primary-color);
+}
+
+/* top navigation bar */
+.nav_list {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    font-family: Satoshi-Medium;
+}
+
+
+/* FOOTER*/
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    text-align: left;
+}
+
+.footer-2 {
+    grid-column: 3 / 3;
+    grid-row: 1 / 3;
+}
+
+h3 {
+    border-bottom: 1px solid var(--primary-color);
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style: none;
+    font-family: Satoshi-Medium;
+    padding-left: 0;
+    color: var(--third-color);
+}
+
+footer li {
+    padding: 2px;
+}
+
+/* styling for links */
+a {
+    text-decoration: none;
+    color: var(--third-color)
+}
+
+h1 a {
+    color: var(--primary-color);
+}
+
+/* a:visited {
+    color: var(--third-color)
+} */
+
+a:hover {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    padding: 5px;
+    border-radius: 5px;
+}
