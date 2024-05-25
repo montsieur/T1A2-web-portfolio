@@ -28,7 +28,6 @@
 body {
     font-family: Satoshi;
     background-color: var(--background-color);
-    margin: 0px 20px;
     display: flex;
     flex-direction: column;
     min-height: 100dvh;
@@ -64,13 +63,15 @@ main {
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+.main-card {
+    padding-top: 0;
 }
 
 section img {
     width: 50%;
-    /* height: 300px;
-    width: 300px; */
     border-radius: 50%;
 }
 
@@ -81,26 +82,28 @@ article h2 {
 
 .main-text {
     font-size: clamp(20px, 5vw, 30px);
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 
 .resume {
-    padding: 20px;
+    padding: 1vh;
     border-radius: 5px;
     background: var(--primary-color);
     color: var(--background-color);
 }
 
-
+/* media query for desktop size */
 @media screen and (width > 1024px) {
 
     body {
-        margin: 0px 20vw;
+        margin: 0px 25vw;
     }
 
     main {
-        flex-direction: row;
-        justify-content: space-between;
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr;
+        /* flex-direction: row;
+        justify-content: space-between; */
     }
 
     section img {
@@ -109,17 +112,10 @@ article h2 {
     }
 
     .main-card {
+        grid-column: 3 / 4;
+        grid-row: 1 / 3;
         text-align: right;
     }
-
-    /* article h2 {
-        font-size: 10vh;
-    } */
-
-    /* .main-text {
-        font-size: 30px;
-        margin-top: 0;
-    } */
 }
 
 
