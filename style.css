@@ -24,7 +24,7 @@
     src: url(./resources/fonts/CabinetGrotesk-Bold.ttf);
 }
 
-/* applies space between the header, main & footer */
+/* applies spacing between the header, main & footer */
 body {
     font-family: Satoshi;
     background-color: var(--background-color);
@@ -33,12 +33,6 @@ body {
     flex-direction: column;
     min-height: 100dvh;
     justify-content: space-between;
-}
-
-@media screen and (min-width: 600px) {
-    body {
-        margin: 0px 20vw;
-    }
 }
 
 /* HEADER */
@@ -64,6 +58,70 @@ h1, h2, h3 {
     padding-top: 5px;
     font-family: Satoshi-Medium;
 }
+
+/* MAIN */
+main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+section img {
+    width: 50%;
+    /* height: 300px;
+    width: 300px; */
+    border-radius: 50%;
+}
+
+article h2 {
+    font-size: clamp(65px, 10vw, 150px);
+    margin: 0;
+}
+
+.main-text {
+    font-size: clamp(20px, 5vw, 30px);
+    margin-bottom: 50px;
+}
+
+.resume {
+    padding: 20px;
+    border-radius: 5px;
+    background: var(--primary-color);
+    color: var(--background-color);
+}
+
+
+@media screen and (width > 1024px) {
+
+    body {
+        margin: 0px 20vw;
+    }
+
+    main {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    section img {
+        height: 50vh;
+        width: auto; 
+    }
+
+    .main-card {
+        text-align: right;
+    }
+
+    /* article h2 {
+        font-size: 10vh;
+    } */
+
+    /* .main-text {
+        font-size: 30px;
+        margin-top: 0;
+    } */
+}
+
 
 /* FOOTER*/
 
@@ -108,9 +166,15 @@ h1 a {
     color: var(--third-color)
 } */
 
-a:hover {
+a:hover:not(.resume) {
     background-color: var(--primary-color);
     color: var(--background-color);
     padding: 5px;
     border-radius: 5px;
+}
+
+.resume:hover {
+    background-color: var(--background-color);
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
 }
