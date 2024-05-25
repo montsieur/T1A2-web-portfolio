@@ -35,6 +35,12 @@ body {
     justify-content: space-between;
 }
 
+@media screen and (min-width: 600px) {
+    body {
+        margin: 0px 20vw;
+    }
+}
+
 /* HEADER */
 
 /* applying space between content for logo & navigation bar */
@@ -58,7 +64,6 @@ h1, h2, h3 {
     padding-top: 5px;
     font-family: Satoshi-Medium;
 }
-
 
 /* FOOTER*/
 
