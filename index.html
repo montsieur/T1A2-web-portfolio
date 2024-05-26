@@ -3,16 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Portfolio</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>VAN NG PORTFOLIO</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <!-- this is the header with logo and navigation list -->
+    <div class="container">
+
     <header>
-        <h1 class="logo-header">
-            <a href="#">VÂN NG</a>
+        <h1>
+            <a href="#">VAN NG</a>
         </h1>
-        <ul class="nav_list">
+        <ul>
             <li><a href="#">Home</a></li>
             <li><a href="">About</a></li>
             <li><a href="">Works</a></li>
@@ -20,44 +23,47 @@
         </ul>
     </header>
 
-    <!-- this is the main body content -->
     <main>
-        <section>
-            <img src="./resources/images/20180810_145649_151.jpg" alt="Portfolio">
+        <section class="photo">
+            <img src="./resources/images/20180810_145649_151.jpg" alt="">
         </section>
-        <article class="main-card">
-            <h2>VAN NGUYEN</h2>
-            <p class="main-text">
-                As a passionate web developer, I specialize in crafting innovative and user-friendly digital experiences. Through a combination of creative design and cutting-edge technology, I bring ideas to life on the web. 
+        <section class="main-header">
+            <h1>VAN NGUYEN</h1>
+        </section>
+        <article class="main-text">
+            <p>
+                As a passionate web developer, I specialize in crafting innovative and user-friendly digital experiences. Through a combination of creative design and cutting-edge technology, I bring ideas to life on the web.
             </p>
-            <a class="resume" href="./resources/files/Van_Dung_Nguyen_resume.pdf" target="_blank">Resume</a>
         </article>
-    </main>
-    
-    <!-- this is the footer -->
-    <footer id="footer">
-        <div class="footer-grid">
-            <section class="footer-1">
-                <h3>navigation</h3>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Works</a></li>
-                        <li><a href="">Contact</a></li>
-                    </ul>
-            </section>
-            <section class="footer-2">
-                <h3>social media</h3>
-                    <ul>
-                        <li><a href="">GitHub</a></li>
-                        <li><a href="">Linkedin</a></li>
-                        <li><a href="">Twitter</a></li>
-                    </ul>
-            </section>
-        </div>
-        <section>
-            <h1>Copyright © VAN NG 2024</h1>
+        <section class="resume_button">
+            <div>
+                <a class="resume" href="./resources/files/Van_Dung_Nguyen_resume.pdf" target="_blank">Resume</a>
+            </div>
         </section>
+    </main>
+
+    <footer>
+        <div class="footer-nav">
+            <h3>Navigation</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Works</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+        </div>
+        <div class="footer-socials">
+            <h3>Social Media</h3>
+                <ul>
+                    <li><a href="https://github.com/montsieur" target="_blank">GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/van-nguyen-1689391a9/" target="_blank">Linkedin</a></li>
+                    <li><a href="https://x.com/montsieurr" target="_blank">Twitter</a></li>
+                </ul>
+        </div>
+        <div class="copyright">
+            <p>Copyright © VAN NG 2024</p>
+        </div>
     </footer>
+    </div>
 </body>
 </html>

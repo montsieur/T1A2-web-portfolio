@@ -63,3 +63,6 @@ e.g. about page will contain images and text describing information of myself, t
 
 ## Home Page
 The Home Page consists of a portrait image of myself with a brief description of what I am & what I do. In addition, there is an implementation of other graphical icons and a button link to download a PDF file of my resume.
+
+### Animation
+Added a typewriter effect to my full name to give it more immersion and motion to the website.

@@ -1,0 +1,86 @@
+/* HOME CSS MAIN BODY */
+
+main {
+    display: grid;
+    grid-template-columns: 0.25fr 0.25fr 0.25fr 0.25fr 0.25fr 0.25fr;
+    grid-template-rows: 0.25fr 0.25fr 0.25fr 0.25fr 0.25fr 0.25fr 0.25fr;
+}
+
+.photo {
+    grid-column: 2 / 6 ;
+    grid-row: 1 / 5;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.photo img {
+    width: 100%;
+    /* max-height: auto; */
+    border-radius: 50%;
+}
+
+.main-header {
+    grid-column: 1 / 7 ;
+    grid-row: 5 / 6;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.main-header h1 {
+    text-align: center;
+    font-size: 5dvh;
+    margin: auto;
+    overflow: hidden; 
+    white-space: nowrap;
+    border-right: 2px solid var(--third-color); 
+    animation: cursor .8s infinite, typing 20s steps(10) infinite;
+    /* this will animate the main header by speed and also speed of cursor color change */
+    
+}
+
+.main-text {
+    grid-column: 2 / 6 ;
+    grid-row: 6 / 7 ;
+}
+
+.main-text p {
+    font-size: 2dvh;
+    text-align: center;
+}
+
+.resume_button {
+    grid-column: 3 / 5 ;
+    grid-row: 7 / 8;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width:1200px) {
+    .container {
+        grid-template-columns: 0.25fr 1fr 0.25fr;
+        max-width: 1200px;
+    }
+    
+}
+
+/* Animations */
+
+/* animating cursor colour */
+@keyframes cursor {
+    to {
+        border-right: 2px solid #E0DDCF;
+    }
+    
+}
+
+/* animating typing speed by frames */
+@keyframes typing {
+    10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95% {
+        width: 0;
+    }    
+    5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85% {
+        width: calc(100% + 8px);
+    }
+}
