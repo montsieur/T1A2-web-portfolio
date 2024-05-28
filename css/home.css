@@ -35,7 +35,6 @@ main {
     border-right: 2px solid var(--third-color); 
     animation: cursor .8s infinite, typing 20s steps(10) infinite;
     /* this will animate the main header by speed and also speed of cursor color change */
-    
 }
 
 .main-text {
