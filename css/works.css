@@ -1,0 +1,61 @@
+/* CONTACT CSS MAIN BODY */
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+main h1 {
+    font-size: clamp(1.8rem, 5vw, 5rem); /* clamp used for responsive min-max font size */
+    font-family: Satoshi-Medium;
+    margin:0;
+}
+
+/* this allows the breakpoint of h1 to align on right */
+.right-align {
+    text-align: right;
+    padding-right: 10%;
+}
+
+/* form styling */
+
+.form-container {
+    padding-right: 10%;
+}
+
+.form-elements label {
+    padding-bottom: 10px;
+}
+
+.form-elements {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+}
+
+.form-input {
+    border: 1px solid var(--primary-color);
+    outline: none;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.form-textarea {
+    resize: none;
+    height: 100px;
+    border: 1px solid var(--primary-color);
+}
+
+.form-input:not(.form-textarea) {
+    height: 35px;
+}
+
+.submit-button {
+    display: flex;
+    justify-content: end;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
