@@ -68,4 +68,4 @@ The Home Page consists of a portrait image of myself with a brief description of
 Added a typewriter effect to my full name to give it more immersion and motion to the website.
 
 ## Contact Page
-This page consist of a header, information for users to complete a form with email address alternative.
+This page consist of a header, information for users to complete a form with email address alternative. The email address displayed on the page is also clickable to open the user's primary email program such as Outlook.

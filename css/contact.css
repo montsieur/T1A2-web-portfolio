@@ -1,4 +1,4 @@
-/* contact main style */
+/* CONTACT CSS MAIN BODY */
 
 main {
     display: flex;
@@ -12,10 +12,13 @@ main h1 {
     margin:0;
 }
 
+/* this allows the breakpoint of h1 to align on right */
 .right-align {
     text-align: right;
     padding-right: 10%;
 }
+
+/* form styling */
 
 .form-container {
     padding-right: 10%;

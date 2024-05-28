@@ -58,14 +58,14 @@ main {
 
 /* Animations */
 
-/* animating cursor colour */
+/* animating cursor colour to blink, changing colour */
 @keyframes cursor {
     to {
         border-right: 2px solid #E0DDCF;
     }
 }
 
-/* animating typing speed by frames */
+/* this will animate typing speed by frames per letter */
 @keyframes typing {
     10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95% {
         width: 0;
