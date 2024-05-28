@@ -6,8 +6,9 @@ main {
     justify-content: center;
 }
 
+
 main h1 {
-    font-size: clamp(1.8rem, 5vw, 5rem);
+    font-size: clamp(1.8rem, 5vw, 5rem); /* clamp used for responsive min-max font size */
     font-family: Satoshi-Medium;
     margin:0;
 }
