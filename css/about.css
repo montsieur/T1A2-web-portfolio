@@ -1,61 +1,99 @@
-/* CONTACT CSS MAIN BODY */
+/* ABOUT CSS STYLE SHEET */
 
-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-
-main h1 {
-    font-size: clamp(1.8rem, 5vw, 5rem); /* clamp used for responsive min-max font size */
+main h2 {
     font-family: Satoshi-Medium;
-    margin:0;
+    font-size: clamp(3rem, 9vw, 8rem);
 }
 
-/* this allows the breakpoint of h1 to align on right */
-.right-align {
-    text-align: right;
-    padding-right: 10%;
+main h3 {
+    font-family: Satoshi-Medium;
+    font-size: clamp(1.8rem, 5vw, 2.5rem);
 }
 
-/* form styling */
-
-.form-container {
-    padding-right: 10%;
-}
-
-.form-elements label {
-    padding-bottom: 10px;
-}
-
-.form-elements {
+.aboutme {
     display: flex;
     flex-direction: column;
-    padding-bottom: 15px;
+    align-items: center;
 }
 
-.form-input {
-    border: 1px solid var(--primary-color);
-    outline: none;
-    border-radius: 4px;
-    font-size: 15px;
+.aboutme img {
+    width: 100%;
+    
 }
 
-.form-textarea {
-    resize: none;
-    height: 100px;
-    border: 1px solid var(--primary-color);
+.aboutme p {
+    font-family: Satoshi-Medium;
+    font-size: clamp(1rem, 2vw, 2rem);
+    text-align: center;
 }
 
-.form-input:not(.form-textarea) {
-    height: 35px;
-}
-
-.submit-button {
+.service-card {
     display: flex;
-    justify-content: end;
-    padding-top: 10px;
-    padding-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.service-card p {
+    margin-top: 0;
+}
+
+.service-card ul {
+    font-size: clamp(1rem, 2vw, 2rem);
+    margin-top: 0;
+}
+
+.techstack {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.techstack img {
+    width: clamp(4rem, 10vw, 8rem);
+}
+
+.resume-ad {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.resume-ad p {
+    margin-bottom: 50px;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 600px) {
+    .aboutme img {
+        max-width: 583px;
+        max-height: 875px;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+
+    .aboutme {
+        display: grid;
+        grid-template-columns: 1fr 0.5fr 1fr;
+    }
+
+    .aboutme p {
+        grid-column: 3 / 4;
+        text-align: right;
+        margin-top: 0;
+        margin-bottom: auto;
+    }
+
+    .service-card {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .service-card ul {
+        text-align: right;
+        grid-column: 3 / 4;
+    }
 }
 

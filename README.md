@@ -67,5 +67,13 @@ The Home Page consists of a portrait image of myself with a brief description of
 ### Animation
 Added a typewriter effect to my full name to give it more immersion and motion to the website.
 
+## About Page
+The About Page further includes a description of where I am based at, what I am, my skills and also my ideals & goals. This page includes:
+
+- Portrait of myself
+- What I do; web design, web development and graphic design
+- List of TechStacks used for web development
+- Before the footer, another link/button to allow users to download my resume if they wish to view further into my work/education history.
+
 ## Contact Page
 This page consist of a header, information for users to complete a form with email address alternative. The email address displayed on the page is also clickable to open the user's primary email program such as Outlook.
