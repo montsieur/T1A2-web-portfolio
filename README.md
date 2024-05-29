@@ -77,3 +77,6 @@ The About Page further includes a description of where I am based at, what I am,
 
 ## Contact Page
 This page consist of a header, information for users to complete a form with email address alternative. The email address displayed on the page is also clickable to open the user's primary email program such as Outlook.
+
+### Submitted Page
+By clicking the 'submit' button on the contact page, it will direct user's to this page notifying the user that their submission has been processed.

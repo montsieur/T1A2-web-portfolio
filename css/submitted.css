@@ -1,0 +1,8 @@
+/* SUBMITTED PAGE FROM CONTACT PAGE MAIN BODY */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
