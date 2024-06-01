@@ -1,0 +1,32 @@
+/* WORK PAGE STYLE SHEET */
+
+.contact-header h2 {
+    font-family: Satoshi-Medium;
+    font-size: clamp(2.8rem, 9vw, 8rem);
+    margin-bottom: 0;
+}
+
+.workcard-content h3, p {
+    margin-top: 0%;
+}
+
+.workcard-content a {
+    font-family: Satoshi-Medium;;
+}
+
+.work-card {
+    margin-top: 106px;
+    margin-bottom: 30px;
+}
+
+.work-card img {
+    width: 100%;
+}
+
+.work-card p {
+    margin-top: 100px;
+}
+
+footer {
+    padding-top: 100px;
+}
