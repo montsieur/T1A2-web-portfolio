@@ -1,9 +1,14 @@
 # T1A2-web-portfolio
 
 ## Overview
-Website link: https://vanngportfolio.netlify.app/
 
 This is a portfolio website with a mininmalistic design to showcase myself of who I am and what I kind of services/skills I can provide. This is currently under development. We will keep adding features in readme that we have added in the website.
+
+#### Portfolio URL
+https://vanngportfolio.netlify.app/
+
+#### Github Repository
+https://github.com/montsieur?tab=repositories
 
 ## Target Audience
 The target audience for the portfolio website is an employer looking to engage a dev and/or IT professional. Expect the employer to have the following knowledge and expectations:
