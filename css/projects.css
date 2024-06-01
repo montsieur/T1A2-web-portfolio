@@ -1,10 +1,7 @@
-/* WORK PAGE STYLE SHEET */
+/* PROJECT PAGE STYLE SHEET */
 
-.main {
-    display: grid;
-}
-
-.contact-header h2 {
+.project-header h2 {
+    margin-top: 0;
     font-family: Satoshi-Medium;
     font-size: clamp(2.8rem, 9vw, 8rem);
 }
@@ -23,6 +20,7 @@
 
 .work-card img {
     width: 100%;
+    margin-bottom: 10px;
 }
 
 footer {
@@ -31,13 +29,14 @@ footer {
 
 /* MEDIA QUERIES */
 
+/* creates grid layout repsonsiveness when enterting desktop for main body*/
 @media screen and (min-width: 1200px) {
 
     .work-card {
         text-align: right;
     }
 
-    .work-card {
+    .work-card { /* creating another grid to layout elements evenly */
         display: grid;
         grid-template-columns: 7fr 1fr 2fr;
         gap: 10px;

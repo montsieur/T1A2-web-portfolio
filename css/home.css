@@ -1,5 +1,8 @@
 /* HOME CSS MAIN BODY */
 
+header {
+    animation: fade-down 0.5s; /* fades header downs from 0 - 1 */
+}
 
 main {
     display: grid; /* creates new main grid within body grid */
@@ -10,7 +13,7 @@ main {
 .photo {
     grid-column: 2 / 6 ;
     grid-row: 1 / 5;
-    margin-top: auto;
+    margin-top: auto; /* automatically sets margin top and bottom during responsiveness */
     margin-bottom: auto;
 }
 
@@ -22,7 +25,7 @@ main {
 .main-header {
     grid-column: 1 / 7 ;
     grid-row: 5 / 6;
-    margin-top: auto;
+    margin-top: auto; /* automatically sets margin top and bottom during responsiveness */
     margin-bottom: auto;
 }
 
@@ -51,7 +54,7 @@ main {
     grid-column: 3 / 5 ;
     grid-row: 7 / 8;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around; /* evenly spaces button in center */
 }
 
 /* Animations */
@@ -70,5 +73,18 @@ main {
     }    
     5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85% {
         width: calc(100% + 8px);
+    }
+}
+
+/* transition fade-in affect for header homepage only*/
+@keyframes fade-down {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px) scale(0.9);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px) scale(1);
     }
 }

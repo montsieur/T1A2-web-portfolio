@@ -1,5 +1,6 @@
 /* CONTACT CSS MAIN BODY */
 
+/* flexbox layout used here */
 main {
     display: flex;
     flex-direction: column;
@@ -22,7 +23,7 @@ main h1 {
 /* form styling */
 
 .form-container {
-    padding-right: 10%;
+    padding-right: 10%; /* aligning elements on the right evenly */
 }
 
 .form-elements label {
@@ -44,18 +45,18 @@ main h1 {
 
 .form-textarea {
     resize: none;
-    height: 100px;
+    height: 100px; /* size of request box */
     border: 1px solid var(--primary-color);
 }
 
 .form-input:not(.form-textarea) {
-    height: 35px;
+    height: 35px; /* changes height size of each input box except for request */
 }
+
 
 .submit-button {
     display: flex;
-    justify-content: end;
+    justify-content: end; /* positions submit button on the right side */
     padding-top: 10px;
     padding-bottom: 30px;
 }
-

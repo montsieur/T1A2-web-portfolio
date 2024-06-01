@@ -2,7 +2,7 @@
 
 main h2 {
     font-family: Satoshi-Medium;
-    font-size: clamp(2.8rem, 9vw, 8rem);
+    font-size: clamp(2.8rem, 9vw, 8rem); 
 }
 
 main h3 {
@@ -11,9 +11,13 @@ main h3 {
 }
 
 .aboutme {
-    display: flex;
+    display: flex; /* flex column all elements */
     flex-direction: column;
     align-items: center;
+}
+
+.aboutpageheader {
+    margin-top: 0;
 }
 
 .aboutme img {
@@ -42,8 +46,8 @@ main h3 {
 
 .techstack {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-wrap: wrap; 
+    justify-content: space-around; /* evenly spaces icons */
 }
 
 .techstack img {
@@ -57,7 +61,7 @@ main h3 {
 .resume-ad {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; /* centering resume button on page */
     margin-bottom: 50px;
 }
 
@@ -71,6 +75,7 @@ main h3 {
 
 /* MEDIA QUERIES */
 
+/* ensures image doesn't go beyond specific size */
 @media screen and (min-width: 600px) {
     .aboutme img {
         max-width: 583px;
@@ -78,9 +83,8 @@ main h3 {
     }
 }
 
-
+/* creating new grid in main for different sections of the website */
 @media screen and (min-width: 1200px) {
-
     .aboutme {
         display: grid;
         grid-template-columns: 1fr 0.5fr 1fr;
