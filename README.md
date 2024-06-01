@@ -75,6 +75,18 @@ The About Page further includes a description of where I am based at, what I am,
 - List of TechStacks used for web development
 - Before the footer, another link/button to allow users to download my resume if they wish to view further into my work/education history.
 
+## Projects Page
+This page consist of a list of projects that I have worked on (tentative placeholders). Users can view a brief visual and infographic on this page. By clicking on the 'read more' link on the a project, it will direct them to the specific project page for more information as a blog.
+
+credit images to:
+- https://webflow.com/blog/parallax-scrolling 
+- https://www.invisionapp.com/inside-design/10-examples-of-parallax-scrolling/
+- https://mockuuups.studio/blog/post/best-bento-grid-design-examples/
+- last 2 projects are my personal projects using python and 3D animation programs such as Maya.
+
+### Project(Blog) Page
+This page consist of a more detailed overview of the selected project that the user has entered.
+
 ## Contact Page
 This page consist of a header, information for users to complete a form with email address alternative. The email address displayed on the page is also clickable to open the user's primary email program such as Outlook.
 

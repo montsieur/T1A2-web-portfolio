@@ -1,0 +1,49 @@
+/* WORK PAGE STYLE SHEET */
+
+.main {
+    display: grid;
+}
+
+.contact-header h2 {
+    font-family: Satoshi-Medium;
+    font-size: clamp(2.8rem, 9vw, 8rem);
+}
+
+.workcard-content h3, p {
+    margin-top: 0%;
+}
+
+.workcard-content a {
+    font-family: Satoshi-Medium;;
+}
+
+.work-card {
+    margin-bottom: 30px;
+}
+
+.work-card img {
+    width: 100%;
+}
+
+footer {
+    padding-top: 100px;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 1200px) {
+
+    .work-card {
+        text-align: right;
+    }
+
+    .work-card {
+        display: grid;
+        grid-template-columns: 7fr 1fr 2fr;
+        gap: 10px;
+    }
+
+    .workcard-content {
+        grid-column: 3 / 4 ;
+    }
+}
