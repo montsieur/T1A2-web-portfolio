@@ -18,7 +18,7 @@ main {
 }
 
 .photo img {
-    width: 100%;
+    width: 100%; /* adds reponsiveness to image up to 100% of the image */
     border-radius: 50%;
 }
 
@@ -32,10 +32,10 @@ main {
 .main-header h1 {
     text-align: center;
     font-size: clamp(3rem, 10vw, 10rem); /* clamp used for responsive min-max font size */
-    margin: auto;
-    overflow: hidden; 
-    white-space: nowrap;
-    border-right: 2px solid var(--third-color); 
+    margin: auto; /* aligns name in center */
+    overflow: hidden; /* hides the element when it extends past border */
+    white-space: nowrap; /* prevents the element from wrapping  */
+    border-right: 2px solid var(--third-color);  /* sets size and color for blinking cursor */
     animation: cursor .8s infinite, typing 20s steps(10) infinite;
     /* this will animate the main header by speed and also speed of cursor color change */
 }

@@ -24,6 +24,7 @@
     src: url(../resources/fonts/CabinetGrotesk-Bold.ttf);
 }
 
+/* this sets the initial default font family, color and bg color */
 body {
     background-color: var(--background-color);
     font-family: Satoshi;
@@ -44,6 +45,7 @@ h3 {
     padding-bottom: 5px;
 }
 
+/* this is the default color and font for all navigation links */
 ul {
     list-style: none;
     font-family: Satoshi-Medium;
@@ -51,6 +53,7 @@ ul {
     color: var(--third-color);
 }
 
+/* this is the default colour for footer copyright */
 .copyright p {
     font-family: CabinetGrotesk-Bold;
 }
@@ -61,10 +64,12 @@ a {
     color: var(--third-color)
 }
 
+/* this is the default header color for the logo */
 h1 a {
     color: var(--primary-color);
 }
 
+/* this is to exclude the resume and submit button as they have a different color pallete */
 a:hover:not(.resume, .submit) {
     background-color: var(--primary-color);
     color: var(--background-color);
@@ -73,6 +78,8 @@ a:hover:not(.resume, .submit) {
 }
 
 /* button styles */
+
+/* this is the inital button color */
 .resume, .submit {
     padding: 1vh;
     border-radius: 5px;
@@ -81,6 +88,7 @@ a:hover:not(.resume, .submit) {
     font-family: CabinetGrotesk-Bold;
 }
 
+/* this is the color once you hover mouse on button */
 .resume:hover, .submit:hover {
     background-color: var(--background-color);
     border: 2px solid var(--primary-color);

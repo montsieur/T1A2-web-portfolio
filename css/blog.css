@@ -1,8 +1,8 @@
 /* PROJECT BLOG PAGE STYLE SHEET */
 
-.contact-header h2 {
-    font-family: Satoshi-Medium;
-    font-size: clamp(2.8rem, 9vw, 8rem);
+.blog-header h2 {
+    font-family: Satoshi-Medium; /* overrides initial font */
+    font-size: clamp(2.8rem, 9vw, 8rem); /* clamp used for responsive min-max font size */
     margin-bottom: 0;
 }
 
@@ -11,7 +11,7 @@
 }
 
 .workcard-content a {
-    font-family: Satoshi-Medium;;
+    font-family: Satoshi-Medium; /* overrides initial font */
 }
 
 .work-card {
@@ -20,13 +20,14 @@
 }
 
 .work-card img {
-    width: 100%;
+    width: 100%; /* responsiveness to image up to 100% depending on viewport width */
 }
 
 .work-card p {
     margin-top: 100px;
 }
 
+/* space between main body and footer */
 footer {
     padding-top: 100px;
 }

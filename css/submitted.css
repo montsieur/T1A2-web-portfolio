@@ -1,5 +1,6 @@
 /* SUBMITTED PAGE FROM CONTACT PAGE MAIN BODY */
 
+/* centering element on center of main body */
 main {
     display: flex;
     flex-direction: column;

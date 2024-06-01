@@ -21,14 +21,25 @@ The target audience for the portfolio website is an employer looking to engage a
 The following tech stacks used for this website is: HTML, CSS, & Figma. 
 
 ## Site Map
-This is a site map briefly showing the navigations to each page starting from the Home Page to either About, Works & Contact pages. In addition each page consists of a footer that navigates to other external pages such as social media, button links to download files and a button to submit a form.
+Site Map was created using Draw.IO - https://www.drawio.com/
+
+This is a site map briefly showing the navigations to each page starting from the Home Page.Users are able to navigate to other pages such as About, Projects & Contact pages. 
+
+As shown in some pages such as Works/Projects, users are able to navigate and enter each project directing the user to a blog page describing the project.
+
+Similar to the Contact page, once a user submits their request, it will direct them to a submitted page notifying the user that their form has been successfully submitted.
+
+In addition each page consists of a footer that navigates to other external pages such as social media, button links to download files and a button to submit a form.
+
 
 ![sitemap](docs/ssitemap.JPG)
 
 ## Wireframes
-This wireframe is a low to mid fidelity wireframe showcasing each page; Home Page, About, Works, Contact, Submission page and blog page(s) - total of 5 blog pages and other components. The wireframes below will show different sizes to a responsive web design for mobile, tablet and desktop.
+Wireframes were creating using Figma - https://www.figma.com
 
-Each page for each wireframe layout consists of images and text.
+This wireframe is a low to mid fidelity wireframe showcasing each page design and layouts; Home Page, About, Works, Contact, Submission page and blog page(s) - total of 5 blog pages and other components. The wireframes below will show different sizes to a responsive web design for mobile, tablet and desktop.
+
+Each page for each wireframe layout consists of images and text and uses a color palette generated from Coolers - https://coolors.co/.
 
 ### Mobile 
 This is a wireframe for mobile users. The template uses a width of 360px.
@@ -37,7 +48,8 @@ This is a wireframe for mobile users. The template uses a width of 360px.
 
 ### Tablet
 This is a wireframe for tablet users. The template uses a width of 834px.
-From this template onwards, it will create a left-right padding to center content on page.
+The main difference compared to the mobile template, there will be paddings on left and right to center content on the page(s).
+
 ![wireframe-tablet](docs/wireframe_tablet.JPG)
 
 ### Desktop

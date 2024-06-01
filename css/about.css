@@ -1,13 +1,13 @@
 /* ABOUT CSS STYLE SHEET */
 
 main h2 {
-    font-family: Satoshi-Medium;
-    font-size: clamp(2.8rem, 9vw, 8rem); 
+    font-family: Satoshi-Medium; /* overrides initial font family */
+    font-size: clamp(2.8rem, 9vw, 8rem); /* clamp used for responsive min-max font size */
 }
 
 main h3 {
-    font-family: Satoshi-Medium;
-    font-size: clamp(1.8rem, 5vw, 2.5rem);
+    font-family: Satoshi-Medium; /* overrides initial font family */
+    font-size: clamp(1.8rem, 5vw, 2.5rem); /* clamp used for responsive min-max font size */
 }
 
 .aboutme {
@@ -21,15 +21,16 @@ main h3 {
 }
 
 .aboutme img {
-    width: 100%;
+    width: 100%; /* responsiveness to image up to 100% depending on viewport width */
 }
 
 .aboutme p {
-    font-family: Satoshi-Medium;
-    font-size: clamp(1rem, 2vw, 2rem);
+    font-family: Satoshi-Medium; /* overrides initial font family */
+    font-size: clamp(1rem, 2vw, 2rem); /* clamp used for responsive min-max font size */
     text-align: center;
 }
 
+/* sets flexbox of service elements as a wrap */
 .service-card {
     display: flex;
     flex-wrap: wrap;
@@ -40,10 +41,11 @@ main h3 {
 }
 
 .service-card ul {
-    font-size: clamp(1rem, 2vw, 2rem);
+    font-size: clamp(1rem, 2vw, 2rem); /* clamp used for responsive min-max font size */
     margin-top: 0;
 }
 
+/* change responsivenss of flexbox to wrap */
 .techstack {
     display: flex;
     flex-wrap: wrap; 
@@ -51,7 +53,7 @@ main h3 {
 }
 
 .techstack img {
-    width: clamp(4rem, 10vw, 8rem);
+    width: clamp(4rem, 10vw, 8rem); /* clamp used for responsive min-max image size */
 }
 
 .about-resume h2 {
